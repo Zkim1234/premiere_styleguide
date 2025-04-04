@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="colours.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <title>Premiere - Colour Palette</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="#"><img src="/images/icon.svg" alt="premiere logo"></a>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Logo</a></li>
+                <li><a href="#">Colours</a></li>
+                <li><a href="#">Typography</a></li>
+                <li><a href="#">Graphics</a></li>
+                <li><a href="#">References</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="heading">Colour Palette</h1>
+    <section class="primary__content spacing">
+        <div class="content__container">
+            <div class="primary__circle big__circle"></div>
+            <div class="hex__content">
+                <h2 class="subheading">Primary Colour</h2>
+                <p class="hex__weight">#2B4570</p>
+                <p>We selected this colour, because we thought it resonated well with Vancouver. This deep blue captures the calmness of Vancouver’s oceans and crispness of the blue sky, providing a natural and professional feel to our app.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="secondary__colour spacing">
+        <div class="secondary__container">
+            <div class="secondary__circle circle"></div>
+            <div class="hex__content">
+                <h2 class="subheading">Secondary Colour</h2>
+                <p class="hex__weight">#0C5674</p>
+                <p>The rich blue-green hue complements our primary colour and adds depth to the overall design. This colour establishes a sense of trust and reliability which aligns with the visual identity for our app.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="text spacing">
+        <h2 class="subheading">Text & Background Colour</h2>
+        <div class="secondary__container">
+            <div class="text__colour-black circle"></div>
+            <div class="text__colour-white circle"></div>
+        </div>
+        <div class="text__hex">
+            <p class="hex__weight">#212325</p>
+            <p class="hex__weight">#FAFAFA</p>
+        </div>
+           <p class="text">The shade of black, used as our primary text colour, ensures readability and provides a strong contrast and white our primary background colour allows other colours to stand out and gives a clean and effortless look to the overall design.</p>
+    </section>
+    <hr>
+    <h1 class="heading">Colour Accessibility</h1>
+    <section class="colour__accessibility spacing">
+        <div class="colour__accessibility content__container">
+            <div class="primary__colour text__circle circle">Our Primary colour passed the contrast test on a white background, which ensure readability.</div>
+            <ul>
+                <li>Contrast Ratio 8.33 : 1</li>
+                <li>Normal Text AA & AAA</li>
+                <li>Large Text AA & AAA</li>
+                <li>Graphics AA & AAA</li>
+            </ul>
+            <img src="/images/colour_palette/contrast_primary.png" class="contrast" alt="primary contrast test">
+        </div>
+        <div class="colour__accessibility content__container">
+            <div class="secondary__circle text__circle circle"> Our Secondary colour passed the contrast test on a white background, which ensures readability.</div>
+            <ul>
+                <li>Contrast Ratio 9.59 : 1</li>
+                <li>Normal Text AA & AAA</li>
+                <li>Large Text AA & AAA</li>
+                <li>Graphics AA & AAA</li>
+            </ul>
+            <img src="/images/colour_palette/secondary_contrast.png" class="contrast" alt="Secondary contrast test">
+        </div>
+    </section>
+    <hr>
+    <h1 class="heading spacing">Visual Example</h1>
+    <section class="visual__container">
+        <h2 class="visual_subheading">Samples of how we demonstrated the use of our colours for our app</h2>
+        <div class="visual__content-img content__container">
+           <img src="/images/colour_palette/tutorial_page.png" alt="tutorial page">
+           <img src="/images/colour_palette/Event_page.png" alt="events page">
+           <img src="/images/colour_palette/sales_page.png" alt="sales page">
+       </div>
+    </section>
+</body>
+</html>
