@@ -1,1 +1,179 @@
+html{
+    padding:0; 
+    margin: 0;
+    
+}
 
+body{
+    padding: 0; 
+    margin: 0; 
+    font-family:lexend;
+}
+
+h1{
+    font-weight: 200; 
+    font-size: 3rem; 
+    color: black; 
+}
+
+h2{
+    font-weight: 500; 
+    font-size: 2.5rem; 
+    color: #0C5674;
+}
+h3{
+    font-weight:500;
+    font-size:1.5rem; 
+    color: #0C5674;
+}
+
+p{
+    font-weight: 200;
+    color:black;
+    font-size: 1.5rem;
+}
+
+main{
+    margin:0;
+    padding-top: 6rem;
+}
+
+/*------ NAV BAR -----------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2B4570;
+    padding: 15px 20px;
+    margin: 0;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-bar__logo {
+    height: 40px;
+}
+
+nav ul {
+    list-style-type: none; 
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 40px;
+}
+
+
+nav ul li a:hover {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 2px;
+}
+
+/*----Graphics-------*/
+.graphics{
+    margin: 4rem 6rem;
+}
+
+.graphics__section{
+    display: grid;
+    row-gap: 3rem;
+    
+
+}
+.graphics__row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 6rem;
+    align-items: center;
+    justify-items: center;
+}
+.graphics__img {
+    width: 100%;
+}
+.graphics__contents{
+    align-content: center;
+}
+
+/*-----Nav bar and Icons-------*/
+.icons__nav-bar{
+    padding:4rem 6rem;
+    background: #EAECF1;
+}
+.icons__nav__section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icons__nav___img{
+    width: 100%;
+}
+
+
+.icons__section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+}
+
+.icons__contents h3{
+    margin-bottom: 0.3rem;
+}
+.icons__contents p{
+    margin-top: 0.3rem;
+}
+
+.icons__bunch{
+    padding: 6rem 2rem;
+    background-color: #71829F;
+}
+
+.icons__img{
+    width: 3rem;
+    margin: 1rem;
+}
+
+/*--------Images and Inspiration--------*/
+.inspo{
+    margin: 4rem 6rem;
+    
+}
+.inspo__img{
+    height:100%;
+}
+
+.inspo__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 0.5fr;
+        align-items: center;
+        justify-items: center;
+      }
+
+.inspo__references a{
+    font-weight: 200;
+    color:black;
+    font-size: 1.5rem;
+}
+
+
+/*------footer section --------*/
+.footer__section{
+    padding: 3rem;
+    text-align: center; 
+}
+
+.footer__info{
+    font-size: 1em; 
+}
