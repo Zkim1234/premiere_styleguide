@@ -68,7 +68,6 @@ nav ul li a:hover {
 
 /* *********************************** */
 
-/* https://shorturl.at/Z6tTc */
 
 .title__sample-text  {
     padding: 80px 0;
@@ -108,4 +107,11 @@ nav ul li a:hover {
 .font__anatomy-sample img {
     width: 77rem;
     height: 17rem;
+}
+
+
+hr {
+    border: 5px solid #15546D;
+    width: 77rem;
+    border-radius: 10px;
 }
