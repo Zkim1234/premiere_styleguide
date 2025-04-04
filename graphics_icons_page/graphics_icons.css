@@ -28,6 +28,11 @@ p{
     font-size: 1.5rem;
 }
 
+main{
+    margin:0;
+    padding-top: 6rem;
+}
+
 /*------ NAV BAR -----------*/
 header {
     display: flex;
@@ -68,8 +73,29 @@ nav ul li a:hover {
     padding-bottom: 2px;
 }
 
+/*----Graphics-------*/
+.graphics{
+    margin: 0 2rem 0 2rem;
+}
+.graphics__section{
+    display: grid;
+    row-gap: 3rem;
+    
 
-
+}
+.graphics__row{
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    column-gap: 6rem;
+    align-items: center;
+    justify-items: center;
+}
+.graphics__img {
+    width: 100%;
+}
+.graphics__contents{
+    align-content: center;
+}
 
 
 
