@@ -81,10 +81,11 @@ nav ul li a:hover {
 
 
 .font__description,
-.description__side {
+.description__side,
+.premiere__styles-sample {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 40px;
 }
 
 .lexend__font-image img {
@@ -104,6 +105,7 @@ nav ul li a:hover {
     padding: 80px 0;
 }
 
+
 .font__anatomy-sample img {
     width: 77rem;
     height: 17rem;
@@ -114,4 +116,15 @@ hr {
     border: 5px solid #15546D;
     width: 77rem;
     border-radius: 10px;
+    
+}
+
+.style__sample-text {
+    width: 50rem;
+    height: 67rem;
+}
+
+.style__used {
+    width: 23rem;
+    height: 67rem;
 }
