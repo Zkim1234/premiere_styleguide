@@ -1,0 +1,156 @@
+html{
+    font-family:lexend, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;                
+  }
+
+.body__content {
+    margin: 0 6rem;
+    padding: 0
+}
+  
+h1{
+    font-weight: 200; 
+    font-size: 3rem; 
+    color: black; 
+}
+
+h2{
+    font-weight: 500; 
+    font-size: 2rem; 
+    color: #0C5674;
+}
+
+p{
+    font-weight: 200;
+    color:black;
+    font-size: 1.5rem;
+}
+
+/* ************************************ */
+/* NAV BAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2B4570;
+    padding: 15px 20px;
+    margin: 0;
+    color: white;   
+}
+
+a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    height: 40px;
+}
+
+nav ul {
+    list-style-type: none; 
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 40px;
+}
+
+
+nav ul li a:hover {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 2px;
+}
+
+/* *********************************** */
+
+.title__intro {
+    background-color: #EAECF1;
+    margin: 0;
+}
+
+.title__sample-text  {
+    padding: 5rem 6rem;
+}
+
+.title__sample-text h1 {
+    padding-left: 3rem;
+}
+
+.text__sample-image {
+    width: 77rem;
+    height: 42rem;
+}
+
+
+.font__description,
+.description__side,
+.premiere__styles-sample {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.font__breakdown {
+    padding: 160px 0;
+}
+
+.lexend__font-image img {
+    width: 37rem;
+    height: 17rem;
+    
+}
+
+.font__sample-Aa img {
+    width: 30rem;
+    height: 26rem;
+}
+
+.font__style-samples img {
+    width: 77rem;
+    height: 37rem;
+    padding: 80px 0;
+}
+
+.typface__anatomy {
+    padding: 180px 0 170px 0;
+}
+
+.font__anatomy-sample img {
+    width: 77rem;
+    height: 17rem;
+    margin-bottom: 10rem;
+}
+
+
+.line__breaker {
+    border-top: 5px solid #15546D;
+    width: 77rem;
+    border-radius: 10px;
+}
+
+.premiere__styles {
+    gap: 40px;
+    margin-top: 8rem;
+}
+
+.style__sample-text {
+    width: 50rem;
+    height: 67rem;
+}
+
+.style__used {
+    width: 23rem;
+    height: 67rem;
+}
+
+
+/* ************************ */
+
