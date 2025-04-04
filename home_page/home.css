@@ -73,6 +73,58 @@ nav ul li a:hover {
     width: 100%;
 }
 
+/*-----------BANNER----------------*/
+.banner{
+   height: 40rem; 
+   width: auto;
+   padding-top: 6rem;
+   background-color: #EAECF1;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.banner__img{
+    padding: 0; 
+    margin: 0; 
+
+}
+
+.banner__left-side{
+    display: block;
+}
+.banner__right-side{
+
+    padding: 2rem 6rem 0 4rem;
+   
+}
+
+.banner__logo-img{
+    
+    width: 100%;
+}
+
+/* .banner__text{
+    align-items: flex-end;
+} */
+
+
+.banner__title{
+
+    font-weight: bold;
+    text-align: right; 
+    font-size: 30px;
+}
+
+.banner__info{
+    font-weight: 300;
+    text-align: right; 
+    font-size: 20px;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+
+
+
 /*------MAIN-------*/
 .main{
     margin: 2rem 3rem;
