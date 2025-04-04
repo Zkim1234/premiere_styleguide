@@ -1,14 +1,17 @@
 html{
-    padding:0; 
-    margin: 0;
-}
-
-body{
-    padding: 0; 
-    margin: 0; 
     font-family:lexend, sans-serif;
 }
 
+body {
+    padding: 0;
+    margin: 0;                
+  }
+
+.body__content {
+    margin: 0 6rem;
+    padding: 0
+}
+  
 h1{
     font-weight: 200; 
     font-size: 3rem; 
@@ -74,9 +77,8 @@ nav ul li a:hover {
 }
 
 .text__sample-image {
-    width: 82rem;
+    width: 77rem;
     height: 42rem;
-
 }
 
 
@@ -128,3 +130,7 @@ hr {
     width: 23rem;
     height: 67rem;
 }
+
+
+/* ************************ */
+
