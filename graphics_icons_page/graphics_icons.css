@@ -18,7 +18,12 @@ h1{
 
 h2{
     font-weight: 500; 
-    font-size: 2rem; 
+    font-size: 2.5rem; 
+    color: #0C5674;
+}
+h3{
+    font-weight:500;
+    font-size:1.5rem; 
     color: #0C5674;
 }
 
@@ -75,8 +80,9 @@ nav ul li a:hover {
 
 /*----Graphics-------*/
 .graphics{
-    margin: 0 2rem 0 2rem;
+    margin: 4rem 6rem;
 }
+
 .graphics__section{
     display: grid;
     row-gap: 3rem;
@@ -85,7 +91,7 @@ nav ul li a:hover {
 }
 .graphics__row{
     display: grid;
-    grid-template-columns: 0.8fr 1fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 6rem;
     align-items: center;
     justify-items: center;
@@ -97,9 +103,45 @@ nav ul li a:hover {
     align-content: center;
 }
 
+/*-----Nav bar and Icons-------*/
+.icons__nav-bar{
+    padding:4rem 6rem;
+    background: #EAECF1;
+}
+.icons__nav__section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    justify-content: center;
+    
+}
+.icons__nav___img{
+    width: 100%;
+}
 
 
+.icons__section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+}
 
+.icons__contents h3{
+    margin-bottom: 0.3rem;
+}
+.icons__contents p{
+    margin-top: 0.3rem;
+}
+
+.icons__bunch{
+    padding: 6rem 2rem;
+    background-color: #71829F;
+}
+
+.icons__img{
+    width: 3rem;
+    margin: 1rem;
+}
 
 /*------footer section --------*/
 .footer__section{
