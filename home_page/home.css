@@ -1,0 +1,182 @@
+html{
+    padding:0; 
+    margin: 0;
+    
+}
+
+body{
+    padding: 0; 
+    margin: 0; 
+    font-family:lexend;
+}
+
+h1{
+    font-weight: 200; 
+    font-size: 3rem; 
+    color: black; 
+}
+
+h2{
+    font-weight: 500; 
+    font-size: 2rem; 
+    color: #0C5674;
+}
+
+p{
+    font-weight: 200;
+    color:black;
+    font-size: 1.5rem;
+}
+
+/*------ NAV BAR -----------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2B4570;
+    padding: 15px 20px;
+    margin: 0;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-bar__logo {
+    height: 40px;
+}
+
+nav ul {
+    list-style-type: none; 
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 40px;
+}
+
+
+nav ul li a:hover {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 2px;
+}
+
+/*----auto width image size -----*/
+.auto-image-size{
+    width: 100%;
+}
+
+/*-----------BANNER----------------*/
+.banner{
+   height: 45rem; 
+   width: auto;
+   padding-top: 6rem;
+   background-color: #EAECF1;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.banner__img{
+    padding: 0; 
+    margin: 0; 
+
+
+}
+
+.banner__left-side{
+    display: grid; 
+    justify-content: start;
+    align-content: end;
+}
+
+.banner__right-side{
+    display:grid;
+    padding: 2rem 6rem 0 4rem;
+    justify-content: end;
+    align-content: center;
+   
+}
+
+.banner__logo-img{
+    
+    width: 60;
+}
+
+/* .banner__text{
+    align-items: flex-end;
+} */
+
+
+.banner__title{
+
+    font-weight: bold;
+    text-align: right; 
+    font-size: 30px;
+}
+
+.banner__info{
+    font-weight: 300;
+    text-align: right; 
+    font-size: 20px;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+
+
+
+/*------MAIN-------*/
+.main{
+    margin: 2rem 3rem;
+}
+
+/*-------Logo Variations--------*/
+.about-logo{
+    margin-top: 6rem;
+}
+
+.logo__intro{
+    margin-top: 3rem;
+}
+
+.logo__section{
+    display: grid;
+    grid-template-columns: 30rem 30rem;
+    justify-content: center;
+    width: 100%;
+    padding: 80px 0 80px 0;
+}
+
+.logo__variation{
+    text-align: center;
+    margin: 30px;
+}
+/*----Logo Additionals-----*/
+.logo__vertical-stacked-img{
+    width: 40%;
+}
+    
+.logo__vertical-stacked,.logo__favicon{
+    margin-bottom: 7rem;
+}
+
+.logo__favicon-img{
+    width:65%;
+}
+
+
+/*------footer section --------*/
+.footer__section{
+    padding: 3rem;
+    text-align: center; 
+}
+
+.footer__info{
+    font-size: 1em; 
+}
