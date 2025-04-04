@@ -163,3 +163,14 @@ nav ul li a:hover {
 .logo__favicon-img{
     width:65%;
 }
+
+
+/*------footer section --------*/
+.footer__section{
+    padding: 3rem;
+    text-align: center; 
+}
+
+.footer__info{
+    font-size: 1em; 
+}
