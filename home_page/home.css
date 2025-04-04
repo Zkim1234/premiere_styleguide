@@ -75,7 +75,7 @@ nav ul li a:hover {
 
 /*-----------BANNER----------------*/
 .banner{
-   height: 40rem; 
+   height: 45rem; 
    width: auto;
    padding-top: 6rem;
    background-color: #EAECF1;
@@ -87,20 +87,26 @@ nav ul li a:hover {
     padding: 0; 
     margin: 0; 
 
+
 }
 
 .banner__left-side{
-    display: block;
+    display: grid; 
+    justify-content: start;
+    align-content: end;
 }
-.banner__right-side{
 
+.banner__right-side{
+    display:grid;
     padding: 2rem 6rem 0 4rem;
+    justify-content: end;
+    align-content: center;
    
 }
 
 .banner__logo-img{
     
-    width: 100%;
+    width: 60;
 }
 
 /* .banner__text{
