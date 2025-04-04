@@ -71,6 +71,10 @@ nav ul li a:hover {
 
 /* *********************************** */
 
+.title__intro {
+    background-color: #EAECF1;
+    margin: 0
+}
 
 .title__sample-text  {
     padding: 80px 0;
@@ -90,6 +94,10 @@ nav ul li a:hover {
     gap: 40px;
 }
 
+.font__breakdown {
+    padding: 160px 0;
+}
+
 .lexend__font-image img {
     width: 37rem;
     height: 17rem;
@@ -107,6 +115,9 @@ nav ul li a:hover {
     padding: 80px 0;
 }
 
+.typface__anatomy {
+    padding: 180px 0 170px 0;
+}
 
 .font__anatomy-sample img {
     width: 77rem;
@@ -119,6 +130,10 @@ hr {
     width: 77rem;
     border-radius: 10px;
     
+}
+
+.premiere__styles {
+    gap: 40px;
 }
 
 .style__sample-text {
