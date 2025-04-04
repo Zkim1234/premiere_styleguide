@@ -143,6 +143,30 @@ nav ul li a:hover {
     margin: 1rem;
 }
 
+/*--------Images and Inspiration--------*/
+.inspo{
+    margin: 4rem 6rem;
+    
+}
+.inspo__img{
+    height:100%;
+}
+
+.inspo__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 0.5fr;
+        align-items: center;
+        justify-items: center;
+      }
+
+.inspo__references a{
+    font-weight: 200;
+    color:black;
+    font-size: 1.5rem;
+}
+
+
 /*------footer section --------*/
 .footer__section{
     padding: 3rem;
