@@ -3,8 +3,30 @@ html{
     background-color: #EAECF1;
 }
 
+main{
+    padding-top: 7rem;
+}
+
+h1{
+    font-weight: 200; 
+    font-size: 3rem; 
+    color: black; 
+   
+}
+
+h2{
+    font-weight: 500; 
+    font-size: 2.5rem; 
+    color: #0C5674;
+}
+h3{
+    font-weight:500;
+    font-size:1.5rem; 
+    color: #0C5674;
+}
+
 p{
-    font-weight: 300;
+    font-weight: 200;
     color:black;
     font-size: 1.5rem;
 }
@@ -25,7 +47,11 @@ header {
     background-color: #2B4570;
     padding: 15px 20px;
     margin: 0;
-    color: white;   
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top:0;
 }
 
 a {
@@ -34,7 +60,7 @@ a {
     text-decoration: none;
 }
 
-img {
+#nav-bar__logo {
     height: 40px;
 }
 
@@ -79,10 +105,11 @@ nav ul li a:hover {
 
 /* PRIMARY colour */
 .heading {
-    font-weight: 200;
+    /* font-weight: 200;
     margin: 100px 0px 0px 50px;
     font-size: 3rem;
-    color: black;
+    color: black; */
+    padding: 0 6rem;
 }
 
 .content__container {
@@ -184,11 +211,11 @@ nav ul li a:hover {
     align-items: center;
 }
 
-ul {
+.colour__accessibility ul {
     padding: 0;
     margin: 0;
 }
-ul li {
+.colour__accessibility ul li {
     margin-bottom: 10px;
     font-size: 1.10rem;
 }
@@ -218,7 +245,7 @@ ul li {
     margin-bottom: 50px;
 }
 
-img{
+.visual__content-img img{
     width: 250px;
     height: auto;
 }
@@ -230,4 +257,14 @@ img{
 }
 .visual__container{
     margin-bottom: 40px;
+}
+
+/*------footer section --------*/
+.footer__section{
+    padding: 3rem;
+    text-align: center; 
+}
+
+.footer__info{
+    font-size: 1em; 
 }

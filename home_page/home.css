@@ -39,6 +39,8 @@ header {
     color: white;
     position: fixed;
     width: 100%;
+    z-index: 1000;
+    top:0;
 }
 
 a {
@@ -80,7 +82,7 @@ nav ul li a:hover {
    padding-top: 6rem;
    background-color: #EAECF1;
    display: grid;
-   grid-template-columns: 1fr 1fr;
+   grid-template-columns: 1.5fr 0.5fr;
 }
 
 .banner__img{
