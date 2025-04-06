@@ -133,36 +133,45 @@
         
         <!--------Inspo------->
         <section class="inspo">
-            <h2>Images and Inspiration</h2>
+            <div> 
+                <h2>Images and Inspiration</h2>
             <p>Throughout the app, we prioritize inclusivity in the images we use. Premiere values its users by showcasing the best of Vancouver, offering competitive prices and hosting events that foster community connection.</p>
-            <div>
-                <img class="inspo__img" src="../images/graphics_icons_img/inspo_img1.png">
             </div>
-            <div class="inspo__content">
+            
+            <!-- Slideshow container -->
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                    <img src="../images/graphics_icons_img/inspo_img1.png" style="width:100%">
+                    </div>
                 
-                <div>
-                    <img class="inspo__img" src="../images/graphics_icons_img/inspo_img4.png">
-                </div>
-                <div>
-                    <img class="inspo__img" src="../images/graphics_icons_img/inspo_img3.png">
-                </div>
+                    <div class="mySlides fade">
+                    <img src="../images/graphics_icons_img/inspo_img2.png" style="width:100%">
+                    </div>
                 
-                <div>
-                    <img class="inspo__img" src="../images/graphics_icons_img/inspo_img2.png">
+                    <div class="mySlides fade">
+                    <img src="../images/graphics_icons_img/inspo_img6.jpg" style="width:100%">
+                    </div>
+                
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-                <div>
-                    <img class="inspo__img" src="../images/graphics_icons_img/inspo_img5.png">
-                </div>
-               
-            </div>
+                <br>
+                
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div> 
             
             <div class="inspo__references">
                 <h3>References</h3>
                 <a href="https://www.jka.cc/wp-content/uploads/2016/09/vancouver-christmas-market-banner.jpg">https://www.jka.cc/wp-content/uploads/2016/09/vancouver-christmas-market-banner.jpg</a>
                 <a href="https://images.dailyhive.com/20240530094447/Canada-Together-at-Canada-Place-1024x525.jpg">https://images.dailyhive.com/20240530094447/Canada-Together-at-Canada-Place-1024x525.jpg</a>
-                <a href="https://www.vancouverplanner.com/wp-content/uploads/2022/05/vancouver-festival-fireworks.jpg">https://www.vancouverplanner.com/wp-content/uploads/2022/05/vancouver-festival-fireworks.jpg</a>
-                <a href="https://thumbs.dreamstime.com/b/bay-company-store-25279572.jpg">https://thumbs.dreamstime.com/b/bay-company-store-25279572.jpg</a>
-                <a href="https://smartcdn.gprod.postmedia.digital/vancouversun/wp-content/uploads/2017/08/png0830naritzia-01.jpg">https://smartcdn.gprod.postmedia.digital/vancouversun/wp-content/uploads/2017/08/png0830naritzia-01.jpg</a>
+                <a href="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/39/84/f8.jpg">https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/39/84/f8.jpg</a>
             </div>
             
         
@@ -177,5 +186,37 @@
         <p class="footer__info">BCIT D3 - set H ©Premiere2025</p>
 
     </footer>
+
+    <script> 
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        }
+
+    </script>
 </body>
 </html>
