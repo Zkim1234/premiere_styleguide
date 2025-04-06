@@ -39,6 +39,8 @@ header {
     color: white;
     position: fixed;
     width: 100%;
+    z-index: 1000;
+    top:0;
 }
 
 a {
@@ -80,14 +82,18 @@ nav ul li a:hover {
    padding-top: 6rem;
    background-color: #EAECF1;
    display: grid;
-   grid-template-columns: 1fr 1fr;
+   grid-template-columns: 1.5fr 0.5fr;
 }
 
 .banner__img{
     padding: 0; 
-    margin: 0; 
+    margin: 0;
+    transform: scale(1);
+    transition: transform .5s ease-in-out;
 
-
+}
+.banner__img:hover{
+    transform: scale(1.2);
 }
 
 .banner__left-side{
@@ -169,6 +175,8 @@ nav ul li a:hover {
 .logo__favicon-img{
     width:65%;
 }
+
+
 
 
 /*------footer section --------*/

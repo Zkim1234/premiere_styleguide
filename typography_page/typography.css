@@ -2,6 +2,7 @@ html{
     font-family:lexend, sans-serif;
 }
 
+
 body {
     padding: 0;
     margin: 0;                
@@ -39,7 +40,11 @@ header {
     background-color: #2B4570;
     padding: 15px 20px;
     margin: 0;
-    color: white;   
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top:0;
 }
 
 a {
@@ -74,14 +79,17 @@ nav ul li a:hover {
 .title__intro {
     background-color: #EAECF1;
     margin: 0;
+    padding-top: 6rem;
+
 }
 
 .title__sample-text  {
-    padding: 5rem 6rem;
+    padding: 4rem 6rem
 }
 
 .title__sample-text h1 {
     padding-left: 3rem;
+    margin-top:0;
 }
 
 .text__sample-image {
@@ -153,4 +161,12 @@ nav ul li a:hover {
 
 
 /* ************************ */
+/*------footer section --------*/
+.footer__section{
+    padding: 3rem;
+    text-align: center; 
+}
 
+.footer__info{
+    font-size: 1em; 
+}

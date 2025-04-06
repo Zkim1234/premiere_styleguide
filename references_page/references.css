@@ -2,10 +2,30 @@ html{
     font-family: Lexend;
     background-color: #EAECF1;
 }   
+h1{
+    font-weight: 200; 
+    font-size: 3rem; 
+    color: black; 
+}
+
+h2{
+    font-weight: 500; 
+    font-size: 2rem; 
+    color: #0C5674;
+}
+
+p{
+    font-weight: 200;
+    color:black;
+    font-size: 1.5rem;
+}
 
 body{
     padding: 0;
     margin: 0;
+}
+main{
+    padding-top: 6rem;
 }
 
 header {
@@ -15,8 +35,11 @@ header {
     background-color: #2B4570;
     padding: 15px 20px;
     margin: 0;
-    color: white;   
-    margin-bottom: 150px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top:0;
 }
 
 nav a {
@@ -54,10 +77,7 @@ nav ul li a:hover {
 
 
 .heading {
-    font-weight: 200;
-    margin: 100px 0px 30px 0px;
-    font-size: 3rem;
-    color: black;
+    margin: 11rem 0px 1rem 0px;
     text-align: center;
 
 }    
@@ -111,3 +131,13 @@ nav ul li a:hover {
 .References__content a:hover{
     color: #0C5674;
 }    
+
+/*------footer section --------*/
+.footer__section{
+    padding: 3rem;
+    text-align: center; 
+}
+
+.footer__info{
+    font-size: 1em; 
+}
